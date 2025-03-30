@@ -14,3 +14,9 @@ The idea is to learn game development. I will be using the classic snake game as
 
 1. Settings menu.
 2. Saving game state and provide a continue option.
+
+## Features Available
+
+1. Works with keyboard
+2. Works with joystick/controller
+3. Works with mobile swipe
