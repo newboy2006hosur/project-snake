@@ -1,0 +1,65 @@
+html, body {
+	overscroll-behavior: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.app {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100dvh;
+	background-color: #111;
+	color: #fff;
+	font-family: sans-serif;
+	flex-direction: column;
+}
+
+.menu {
+	text-align: center;
+}
+
+.title {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+	font-family: "Press Start 2P", system-ui;
+	color: limegreen;
+	border-bottom: 2px dashed limegreen;
+	display: flex;
+	width: fit-content;
+	justify-content: center;
+	align-items: center;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	font-size: 1.5rem;
+	margin: 10px 0;
+	cursor: pointer;
+	transition: transform 0.2s ease;
+	font-family: "Silkscreen", sans-serif;
+}
+
+li:hover,
+.selected {
+	transform: scale(1.1);
+	font-weight: 500;
+	color: limegreen;
+}
+
+.score-card {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+	color: limegreen;
+	font-family: "Silkscreen", sans-serif;
+}
